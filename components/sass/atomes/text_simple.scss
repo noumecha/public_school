@@ -1,0 +1,8 @@
+@use "../use.scss" as *;
+.text_simple {
+    font-size: $tmc_text_size;
+    line-height: $tmc_text_line_height;
+    text-align: justify;
+    padding: $tmc_simple_padding;
+    margin-bottom: $tmc_simple_margin;
+}

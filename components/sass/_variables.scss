@@ -1,6 +1,6 @@
 // font family :
-
-$tmc_family:'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+$tmc_family:'Oswald', sans-serif;
 
 // colors :
 
@@ -16,14 +16,25 @@ $tmc_icon_height:35px;
 $tmc_icon_width:35px;
 
 // font-size :
+$tmc_big_title: 54px;
 $tmc_title_size:35px;
 $tmc_link_size:18px;
-$tmc_text_size:20px;
+$tmc_text_size:22px;
 $tmc_resp_text_size:16px;
+
 // margin 
+$tmc_simple_margin: 20px;
 $tmc_default_margin:60px;
 
+// font-weight : 
+$tmc_big_title_weight: 800;
+
+// line-height : 
+$tmc_big_title_line_height: 70px;
+$tmc_text_line_height: 33px;
+
 // padding : 
+$tmc_simple_padding: 7px;
 $tmc_default_padding:25px;
 $tmc_link_btn_padding:30px;
 

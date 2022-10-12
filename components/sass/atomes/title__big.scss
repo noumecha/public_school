@@ -1,0 +1,8 @@
+@use "../use.scss" as *;
+.title__big {
+    font-size: $tmc_big_title;
+    font-weight: $tmc_big_title_weight;
+    line-height: $tmc_big_title_line_height;
+    text-align: justify;
+    margin-bottom: $tmc_simple_margin;
+}

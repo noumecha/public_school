@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/_variables.scss","../sass/atomes/title__big.scss","../sass/atomes/text_simple.scss","../sass/index.scss"],"names":[],"mappings":"AACQ;ACAR;EACI,WDgBY;ECfZ,aD0BmB;ECzBnB,aD4BwB;EC3BxB;EACA,eDmBgB;;;AExBpB;EACI,WFmBW;EElBX,aF8BmB;EE7BnB;EACA,SF+BiB;EE9BjB,eFmBgB;;;AGtBpB;EACI,aHFQ;;;AGIZ;EACI,WHcW","file":"index.css"}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+.title__big {
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.text_simple {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: justify;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=index.css.map */
