@@ -22,12 +22,20 @@ $tmc_link_size:18px;
 $tmc_text_size:22px;
 $tmc_resp_text_size:16px;
 
+// padding :
+$tmc_small_small_padding: 10px;
+$tmc_small_padding: 20px;
+$tmc_big_padding: 70px;
+
 // margin 
 $tmc_simple_margin: 20px;
 $tmc_default_margin:60px;
+$tmc_small_small_margin: 7px;
 
 // font-weight : 
 $tmc_big_title_weight: 800;
+$tmc_simple_weight: 700;
+$tmc_small_weight: 300;
 
 // line-height : 
 $tmc_big_title_line_height: 70px;
@@ -44,3 +52,5 @@ $tmc_default_btn_radius:7px;
 
 // border 
 $tmc_default_border:2px solid $tmc_primary;
+$tmc_small_border: 4px;
+$tmc_big_border: 7px;

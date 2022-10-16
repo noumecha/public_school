@@ -1,5 +1,8 @@
 @use "./use.scss" as *;
 @use "./atomes/title__big.scss";
+@use "./atomes/simple_link.scss";
+@use "./atomes/svg.scss";
+@use "./mollecules/button_simple.scss";
 @use "./atomes/text_simple.scss";
 * {
     font-family: $tmc_family;

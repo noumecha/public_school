@@ -1,0 +1,12 @@
+@use "../use.scss" as *;
+.button_svg {
+    //@include
+    background-color: $tmc_primary;
+    outline: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: $tmc_small_small_padding;
+    border-radius: $tmc_small_border;
+}

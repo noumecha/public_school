@@ -1,0 +1,10 @@
+@use "../use.scss" as *;
+.simple_link {
+    font-size: $tmc_link_size;
+    text-decoration: none;
+    color: $tmc_primary;
+    font-weight: $tmc_simple_weight;
+    &:hover {
+        color: $tmc_fourthly;
+    }
+}

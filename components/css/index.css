@@ -7,6 +7,41 @@
   margin-bottom: 20px;
 }
 
+.simple_link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #04BF37;
+  font-weight: 700;
+}
+.simple_link:hover {
+  color: #1CA6E1;
+}
+
+.svg {
+  fill: #FCFEFD;
+}
+
+.button_simple {
+  background-color: #04BF37;
+  outline: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 4px;
+}
+.button_simple .simple_link {
+  color: #FCFEFD;
+}
+.button_simple .svg {
+  margin-left: 7px;
+}
+.button_simple:hover {
+  background-color: #0B0C0C;
+  transition: ease-in-out 1s;
+}
+
 .text_simple {
   font-size: 22px;
   line-height: 33px;
