@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/noumecha/public_school/issues"
   },
-  "homepage": "https://github.com/noumecha/public_school#readme"
+  "homepage": "https://github.com/noumecha/public_school#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
