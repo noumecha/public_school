@@ -29,7 +29,7 @@ const server = createServer((req, res) => {
 						<h1 class="title__big">Website for presenting school</h1>
 							<p class="text_simple">just for the player!</p> 
 							<div class="text_simple">
-								hello me am :<p style="color:green">${url.searchParams.get('name')}</p>
+								hello me i am :<p style="color:green">${url.searchParams.get('name')}</p>
 								aged of : <p style="color:red">${url.searchParams.get('age')}</p>
 							</div>
 							<button class="button_simple">
