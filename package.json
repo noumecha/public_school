@@ -1,0 +1,19 @@
+{
+  "name": "public_school",
+  "version": "1.0.0",
+  "description": "\"A simple node js app for creating dynamic web site for school\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noumecha/public_school.git"
+  },
+  "author": "Noumecha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noumecha/public_school/issues"
+  },
+  "homepage": "https://github.com/noumecha/public_school#readme"
+}
