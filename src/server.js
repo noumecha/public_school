@@ -1,10 +1,15 @@
+// liste of import 
 import { createServer } from 'http'
+import os from 'os';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 
+// liste of consts an configuration of the sever
 const server = createServer((req, res) => {
 	res.writeHead(200, {'content-type': 'text/html; charset=utf-8'})
 	//res.write('Hello Node.js\n')
 	const url = new URL(req.url, 'http://localhost:8080')
-	debugger;
+	//debugger;
 	const body = `<!DOCTYPE html>
 	<html lang="fr">
 		<head>
@@ -47,8 +52,12 @@ const server = createServer((req, res) => {
 	//res.write('./src/index.html')
 	res.end(body)
 })
-
-
+// get current dir 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+console.log('Script directory : ' , __dirname)
+// get the host: 
+console.log('host : ', os.hostname())
 // listen to the port
 console.log('listen')
 server.listen(3000, () => {

@@ -2,10 +2,12 @@
   "name": "public_school",
   "version": "1.0.0",
   "description": "\"A simple node js app for creating dynamic web site for school\"",
-  "main": "src/server.mjs",
+  "type": "module",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.mjs"
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
   },
   "repository": {
     "type": "git",
