@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
 .title__big {
   font-size: 54px;
   font-weight: 800;
@@ -50,8 +52,20 @@
   margin-bottom: 20px;
 }
 
+.public_school__footer {
+  background-color: #0B0C0C;
+  color: #FCFEFD;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  flex-direction: column;
+  bottom: 0;
+}
+
 * {
-  font-family: "Oswald", sans-serif;
+  font-family: "Text Me One", sans-serif;
 }
 
 p {

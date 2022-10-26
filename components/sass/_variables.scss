@@ -1,6 +1,10 @@
 // font family :
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
 $tmc_family:'Oswald', sans-serif;
+$tmc_family_two: 'Titillium Web', sans-serif;
+$tmc_family_three: 'Text Me One', sans-serif;
 
 // colors :
 
@@ -10,6 +14,7 @@ $tmc_thirdly:#FCFEFD;
 $tmc_fourthly:#1CA6E1;
 $tmc_font_color:white;
 $tmc_border_color:black;
+$tmc_background: #0B0C0C;
 
 // height & width 
 $tmc_icon_height:35px;

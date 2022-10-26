@@ -4,8 +4,9 @@
 @use "./atomes/svg.scss";
 @use "./mollecules/button_simple.scss";
 @use "./atomes/text_simple.scss";
+@use "./organismes/public_school__footer.scss";
 * {
-    font-family: $tmc_family;
+    font-family: $tmc_family_three;
 }
 p {
     font-size: $tmc_text_size;

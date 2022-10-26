@@ -1,0 +1,12 @@
+@use "../use.scss" as *;
+.public_school__footer {
+    background-color: $tmc_background;
+    color: $tmc_thirdly;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-top: $tmc_big_padding;
+    padding-bottom: $tmc_big_padding;
+    flex-direction: column;
+    bottom: 0;
+}
